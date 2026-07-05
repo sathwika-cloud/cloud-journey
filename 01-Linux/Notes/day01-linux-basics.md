@@ -2,47 +2,47 @@
 
 ## Commands Learned
 
-### pwd
-**Full Form:** Present Working Directory
+# Day 1 - Linux Basics
 
-**Purpose:**   Shows the current directory you are in.
+## Commands Learned
 
-### ls
+### Navigation
+```bash
+pwd        # Print current working directory
+ls         # List files and folders
+cd folder  # Move into a folder
+cd ..      # Move back one level
+```
 
-**Purpose:**    Lists files and folders in the current directory.
+### Creating Files & Folders
+```bash
+mkdir folder_name   # Create a directory
+touch file.txt      # Create an empty file
+```
 
-### mkdir
+### Moving Files
+```bash
+mv file.txt folder/     # Move a file
+mv old.txt new.txt      # Rename a file
+```
 
-**Full Form:**  Make Directory
+### Reading & Writing Files
+```bash
+cat file.txt                    # Display file contents
+echo "Hello Linux" > file.txt   # Overwrite file
+echo "New line" >> file.txt     # Append to file
+```
 
-**Purpose:**    Creates a new folder.
+### Deleting
+```bash
+rm file.txt     # Delete a file
+rmdir foldername # Delete a folder
+```
 
-### cd
+## Key Learnings
 
-**Full Form:**  Change Directory
-
-**Purpose:**    Moves into another folder.
-
-### touch
-
-**Full Form:**   create a file 
-**Purpose:**     creates a file in current folder
-
-### nano
-
-**Full Form:**   edits file
-**Purpose:**     opens file contents that can be editted
-
-### cat
-
-**Full Form:**   view file contents
-**Purpose:**     lists the contents of the file
-
-## What I Practiced Today
-
-- Created a folder using `mkdir`
-- Listed files using `ls`
-- Navigated into a folder using `cd`
-- Verified my location using `pwd`
-- Installed Ubuntu using WSL
-- Logged into Linux for the first time
+- `pwd` tells me where I am.
+- `ls` shows what is in the current directory.
+- Linux uses a tree-like file system.
+- `>` overwrites a file, while `>>` appends to it.
+- `rm` permanently deletes a file.
