@@ -36,6 +36,10 @@ This instructs Linux to execute the script using the Bash shell.
 
 ---
 
+##To run or execute a script
+
+./filename is used to run a script
+
 ## Variables
 
 A variable is used to store data that can be reused throughout a script.
