@@ -17,6 +17,7 @@ cd ..      # Move back one level
 ### Creating Files & Folders
 ```bash
 mkdir folder_name   # Create a directory
+mkdir -p directory/foldername/foldername #Create all the directories if they don't exist then fine ignore
 touch file.txt      # Create an empty file
 ```
 
