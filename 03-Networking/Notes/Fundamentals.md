@@ -1,3 +1,19 @@
+ Section 1 -
+
+- [x] What is a network?
+- [x] Packets
+- [x] IP address
+- [x] MAC address
+- [x] Port
+- [x] Protocol
+- [x] Local network
+- [x] Switch
+- [x] Router
+- [x] Client-server
+- [x] OSI model
+- [x] TCP/IP model
+- [x] Basic data flow
+
 # Networking - Section 1: Fundamentals
 
 ## 1. What is a Network?
@@ -216,9 +232,13 @@ Signals / Cable / Radio / Fiber
 Important mental model:
 
 Application -> WHAT
+
 Transport -> HOW to transport
+
 Network -> WHERE
+
 Data Link -> LOCAL delivery
+
 Physical -> HOW bits physically travel
 
 ---
